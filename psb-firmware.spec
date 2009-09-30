@@ -1,7 +1,7 @@
 Summary:	Binary firmware for the Poulsbo (psb) 3D X11 driver
 Name:		psb-firmware
 Version:	0.30
-Release:	3%{?dist}
+Release:	4%{?dist}
 License:	Redistributable, no modification permitted
 Group:		System Environment/Kernel
 URL:		http://ppa.launchpad.net/ubuntu-mobile/ubuntu/pool/main/p/psb-firmware/
@@ -34,12 +34,15 @@ rm -rf %{buildroot}
 /lib/firmware/msvdx_fw.bin
 
 %changelog
-* Thu Aug 20 2009 Adam Williamson <awilliam@redhat.com> - 0.30-3
+* Wed Sep 30 2009 Adam Williamson <adamwill AT shaw DOT ca> - 0.30-4
+- change my email address in changelog to correct one for Fusion
+
+* Thu Aug 20 2009 Adam Williamson <adamwill AT shaw DOT ca> - 0.30-3
 - switch to noarch
 
-* Wed Aug 19 2009 Adam Williamson <awilliam@redhat.com> - 0.30-2
+* Wed Aug 19 2009 Adam Williamson <adamwill AT shaw DOT ca> - 0.30-2
 - correct license for RPMFusion conventions
 
-* Mon Aug 10 2009 Adam Williamson <awilliam@redhat.com> - 0.30-1
+* Mon Aug 10 2009 Adam Williamson <adamwill AT shaw DOT ca> - 0.30-1
 - begin changelog tracking
 
